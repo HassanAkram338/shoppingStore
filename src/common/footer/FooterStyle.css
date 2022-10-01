@@ -1,0 +1,20 @@
+.icon-box-wrapper {
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 10px;
+  /* background-color: rgba(15, 25, 50, 0.831); */
+  background-color: grey;
+}
+.icon-box-wrapper:hover {
+  background-color: #f54337;
+}
+
+.icons-group{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+

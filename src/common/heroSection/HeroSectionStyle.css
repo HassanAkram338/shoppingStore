@@ -1,0 +1,14 @@
+.banner-section {
+  background-image: url("https://dnex.econex.com.pk/assets/images/frontend/breadcrumb/611fa19fe6d341629462943.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.overlay {
+  background: rgba(15, 25, 50, 0.831);
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

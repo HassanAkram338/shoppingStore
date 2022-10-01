@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #555555;
+}
+
+/* Hero Section Styling */
+
+.banner-container {
+  background: url("../../../assets/images/bg.jpg") no-repeat center / cover;
+  min-height: 100vh;
+}
+
+.bg-overlay {
+  background: rgba(15, 25, 50, 0.831);
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.button-area {
+  margin-top: 10px;
+}
+
+.button-top {
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+/* Info Section Styling & Latest News Sedtion Styling */
+
+.info-container , .latest-news-container {
+  background-color: #f0f8ff;
+  padding-top: 60px;
+}
+
+.first-card-container , .third-card-container {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 80vw;
+  background-color: white;
+  border-radius: 10px;
+  padding: 72px;
+  box-shadow: -2px -5px 35px 0px #d7d7d7;
+
+}
+
+
+
+.content-box {
+  margin-left: 64px;
+}
+
+.title-section {
+  padding-bottom: 25px;
+}
+.subtitle-section {
+  padding-bottom: 20px;
+}
+
+/* Client Section Styling  */
+
+.clientInfo-container {
+  background-color: #f0f8ff;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.second-card-container {
+  display: flex;
+  justify-content: center;
+  /* width: 80vw; */
+  margin: 0 auto;
+}
+
+.clientInfo-card {
+  max-width: 80vw;
+  background-color: white;
+  padding: 72px;
+  border-radius: 10px;
+  box-shadow: -2px -2px 35px 0px #d7d7d7;
+  flex-basis: 100%;
+}
+
+/* News Letter Section Styling */
+
+.newsletter {
+  background-image: url("../../../assets/images/news-letter.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 50vh;
+}
+
+.content-section-overlay {
+  background: rgba(15, 25, 50, 0.831);
+  min-height: 50vh;
+}
+
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.email-address-box {
+  width: 50vw;
+  border-radius: 30px;
+  outline: 0;
+  border: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (min-width : 0px) and (max-width : 600px) {
+  
+  .side-image{
+    display: none;
+
+  }
+
+  .card{
+    max-width: 100vw;
+  }
+  .first-card-container, .second-card-container, .third-card-container{
+    width: 100vw;
+  }
+  .info-container, .latest-news-container, .clientInfo-card{
+    width: 100%;
+  }
+
+  .clientInfo-card {
+    max-width: 100vw;
+  }
+
+}
+
+
+
+
+
+

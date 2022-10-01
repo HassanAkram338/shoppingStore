@@ -1,0 +1,31 @@
+.light-background-container {
+  background-color: #f0f8ff;
+}
+.signIn-container {
+  display: flex;
+}
+
+.image-container {
+  background-image: url("../../../assets/images/login.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.content-overlay {
+  background-color: #f54337b8;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 900px){
+    .image-container{
+        display: none;
+    }
+}
+    

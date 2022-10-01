@@ -1,0 +1,21 @@
+.contact-section-container{
+    background-color: #f0f8ff;
+}
+
+.address-with-icons{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.contact-info-section{
+    padding-bottom: 2rem;
+    width: 90%;
+
+}
+
+
+@media screen  and (min-width : 0px) and (max-width : 992px) {
+    .side-image{
+        display: none;
+    }
+}
